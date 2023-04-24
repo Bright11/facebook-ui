@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nav.css">
+	<script src="https://kit.fontawesome.com/0560d0caf7.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="darkmode.css">
+	<link rel="stylesheet" href="profile.css">
+	<link rel="stylesheet" href="mediaquery.css">
+</head>
+
+<body>
+	<nav>
+		<div class="nav-left">
+		<a href="index.html">
+				<img src="images/logo.png" alt="" class="logo">
+		</a>
+			<ul>
+				<li><img src="images/notification.png" alt=""></li>
+				<li><img src="images/inbox.png" alt=""></li>
+				<li><img src="images/video.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="nav-right">
+			<div class="search-box">
+				<img src="images/search.png" alt="">
+				<input type="text" placeholder="Search">
+			</div>
+			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+				<img src="images/profile-pic.png" alt="">
+			</div>
+		</div>
+		<!-- setting menu -->
+		<div class="settings-menu">
+			<!-- dark-mode-btn -->
+			<div id="dark-btn">
+				<span></span>
+			</div>
+			<!-- the end of dark-mode-btn -->
+			<!-- setting-menu-inner -->
+			<div class="setting-menu-inner">
+				<!-- user-profile -->
+				<div class="user-profile">
+					<img src="images/profile-pic.png" alt="">
+					<div>
+						<p>Chika Nwazuo</p>
+						<a href="profile.html">See your profile</a>
+					</div>
+				</div>
+				<hr>
+				<!-- THE END user-profile -->
+				<!-- user-profile -->
+				<div class="user-profile">
+					<img src="images/profile-pic.png" alt="">
+					<div>
+						<p>Give us a feedback/p>
+						<a href="#">Feedback</a>
+					</div>
+				</div>
+				<hr>
+				<!-- THE END user-profile -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/setting.png" alt="" class="setting-icon">
+					<a href="#">Settings and Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/setting.png" alt="" class="setting-icon">
+					<a href="#">Display and Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/help.png" alt="" class="setting-icon">
+					<a href="#">Help & Support <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/logout.png" alt="" class="setting-icon">
+					<a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+			</div>
+			<!-- the end of setting-menu-inner -->
+
+		</div>
+		<!-- the end of settings menu -->
+	</nav>
+	<!-- profile-container -->
+	<div class="profile-container">
+		<img src="images/cover.png" alt="" class="cover-img">
+		<!-- profile-details -->
+		<div class="profile-details">
+			<!-- pd-left -->
+			<div class="pd-left">
+				<!-- pd-row -->
+				<div class="pd-row">
+					<img src="images/profile.png" alt="" class="pd-image">
+					<div>
+						<h3>Chika Nwazuo</h3>
+						<p>1500 Friends - 30 mutual Friends</p>
+						<img src="images/member-1.png" alt="">
+						<img src="images/member-2.png" alt="">
+						<img src="images/member-3.png" alt="">
+						<img src="images/member-4.png" alt="">
+					</div>
+				</div>
+				<!-- the end of od-row -->
+			</div>
+			<!-- the end of pd-left -->
+			<!-- pd-right -->
+			<div class="pd-right">
+				<button type="button"><img src="images/add-friends.png" alt=""> Friend</button>
+				<button type="button"><img src="images/message.png" alt=""> Message</button>
+				<br>
+				<a href="#"><img src="images/more.png" alt=""></a>
+			</div>
+
+			<!-- the end of pd-right -->
+		</div>
+		<!-- the end of profile-detail -->
+		<!-- profile info -->
+		<div class="profile-info">
+			<!-- info-col -->
+			<div class="info-col">
+				<!-- profile-into -->
+				<div class="profile-intro">
+					<h3>Intro</h3>
+					<p class="intro-text">Believe in yourself you will do unbelievable things <img src="images/feeling.png" alt=""> </p>
+					<hr>
+					<ul>
+						<li><img src="images/profile-job.png" alt=""> Director at web design academy</li>
+						<li><img src="images/profile-study.png" alt=""> Studied at Academic collage</li>
+						<li><img src="images/profile-study.png" alt=""> Went to Oporo Ahaba</li>
+						<li> <img src="images/profile-home.png" alt="">Lives in Ghana</li>
+						<li><img src="images/profile-location.png" alt="">From Nigeria</li>
+					</ul>
+				</div>
+				<!-- the end of profile-intro -->
+				<!-- profile-intro 2 -->
+				<div class="profile-intro">
+					<div class="title-box">
+						<h3>Photos</h3>
+						<a href="#">All Photos</a>
+					</div>
+					<!-- photo-box -->
+					<div class="photo-box">
+						<div><img src="images/photo1.png" alt=""></div>
+						<div><img src="images/photo2.png" alt=""></div>
+						<div><img src="images/photo3.png" alt=""></div>
+						<div><img src="images/photo4.png" alt=""></div>
+						<div><img src="images/photo5.png" alt=""></div>
+						<div><img src="images/photo6.png" alt=""></div>
+						</div>
+						<!-- the end of photo-box -->
+					</div>
+
+				<!-- the end of profile-intro2 -->
+
+
+				<!-- profile-intro 2 -->
+				<div class="profile-intro">
+					<div class="title-box">
+						<h3>Friends</h3>
+						<a href="#">All Friends</a>
+					</div>
+					<p>150 (10 mutual)</p>
+					<!-- friends-box -->
+					<div class="friends-box">
+						<div><img src="images/member-1.png" alt=""><p>Chika</p></div>
+						<div><img src="images/member-2.png" alt=""><p>Bright</p></div>
+						<div><img src="images/member-3.png" alt=""><p>Nwazuo</p></div>
+						<div><img src="images/member-4.png" alt=""><p>Izuch</p></div>
+						<div><img src="images/member-5.png" alt="">
+						<p>Nkeiruka</p></div>
+						<div><img src="images/member-6.png" alt=""><p>Kelechukwu</p></div>
+						<div><img src="images/member-7.png" alt=""><p>Chiamaka</p></div>
+						<div><img src="images/member-8.png" alt=""><p>Confidence</p></div>
+						<div><img src="images/member-9.png" alt=""><p>Web Bright</p></div>
+					</div>
+					<!-- the end of friends-box -->
+				</div>
+				
+				<!-- the end of profile-intro2 -->
+
+			</div>
+			<!-- the end info-col -->
+			<!-- post-col -->
+			<div class="post-col">
+				<!-- wirte-post-container -->
+				<div class="write-post-container">
+					<!-- user-profile -->
+					<div class="user-profile">
+						<img src="images/profile-pic.png" alt="">
+						<div>
+							<p>Chika Nwazuo</p>
+							<small>Public <i class="fas fa-caret-down"></i> </small>
+						</div>
+					</div>
+				
+					<!-- the end of user-profile -->
+					<!-- post-input-container -->
+					<div class="post-input-container">
+						<textarea name="" rows="3" placeholder="What's on your mind, Chika"></textarea>
+						<div class="add-post-links">
+							<a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+							<a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+							<a href="#"><img src="images/feeling.png" alt="">Felling/Activity</a>
+						</div>
+					</div>
+					<!-- the end post-input-container -->
+				
+				
+				</div>
+				<!-- the end of wirte-post-container -->
+
+					<!-- post-container -->
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="images/profile-pic.png" alt="">
+								<div>
+									<p>Chika Nwazuo</p>
+									<span>Saturday 22 2023, 11:33 Am</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+					
+						<p class="post-text">Hi I am a proficient website developer, effective in developing and managing web applications
+							that achieve customer
+							objectives.! <a href="#">#ChikaNwazuo</a><a href="#">#BrightWeb</a></p>
+						<img src="images/feed-image-1.png" alt="" class="post-img">
+						<!-- post-row -->
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="images/like-blue.png" alt="">120</div>
+								<div><img src="images/comments.png" alt="">100</div>
+								<div><img src="images/share.png" alt="">20</div>
+							</div>
+							<div class="post-profile-icon">
+								<img src="images/profile-pic.png" alt="">
+								<i class="fas fa-caret-down"></i>
+							</div>
+						</div>
+						<!-- end of post-row -->
+					</div>
+					<!-- the end of post container -->
+					<!-- post-container -->
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="images/profile-pic.png" alt="">
+								<div>
+									<p>Chika Nwazuo</p>
+									<span>Saturday 22 2023, 11:33 Am</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+					
+						<p class="post-text">Hi I am a proficient website developer, effective in developing and managing web applications
+							that achieve customer
+							objectives.! <a href="#">#ChikaNwazuo</a><a href="#">#BrightWeb</a></p>
+						<img src="images/feed-image-1.png" alt="" class="post-img">
+						<!-- post-row -->
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="images/like-blue.png" alt="">120</div>
+								<div><img src="images/comments.png" alt="">100</div>
+								<div><img src="images/share.png" alt="">20</div>
+							</div>
+							<div class="post-profile-icon">
+								<img src="images/profile-pic.png" alt="">
+								<i class="fas fa-caret-down"></i>
+							</div>
+						</div>
+						<!-- end of post-row -->
+					</div>
+					<!-- the end of post container -->
+					<!-- post-container -->
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="images/profile-pic.png" alt="">
+								<div>
+									<p>Chika Nwazuo</p>
+									<span>Saturday 22 2023, 11:33 Am</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+					
+						<p class="post-text">Hi am Chika Nwazuo a proficient website developer, effective in developing and managing web
+							applications
+							that achieve customer
+							objectives.! <a href="#">#ChikaNwazuo</a><a href="#">#BrightWeb</a></p>
+						<img src="images/feed-image-3.png" alt="" class="post-img">
+						<!-- post-row -->
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="images/like-blue.png" alt="">120</div>
+								<div><img src="images/comments.png" alt="">100</div>
+								<div><img src="images/share.png" alt="">20</div>
+							</div>
+							<div class="post-profile-icon">
+								<img src="images/profile-pic.png" alt="">
+								<i class="fas fa-caret-down"></i>
+							</div>
+						</div>
+						<!-- end of post-row -->
+					
+					</div>
+					<!-- the end of post container -->
+			</div>
+			<!-- the end of post-col -->
+		</div>
+		<!-- the end of profile info -->
+	</div>
+	<!-- the end of profile container -->
+
+	<div class="footer">
+		<p>Coyp-right Chika Nwazuo 2023</p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

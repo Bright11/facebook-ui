@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nav.css">
+	<script src="https://kit.fontawesome.com/0560d0caf7.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="darkmode.css">
+	<link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+	<nav>
+		<div class="nav-left">
+			<a href="index.html">
+				<img src="images/logo.png" alt="" class="logo">
+			</a>
+			<ul>
+				<li><img src="images/notification.png" alt=""></li>
+				<li><img src="images/inbox.png" alt=""></li>
+				<li><img src="images/video.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="nav-right">
+			<div class="search-box">
+				<img src="images/search.png" alt="">
+				<input type="text" placeholder="Search">
+			</div>
+			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+				<img src="images/profile-pic.png" alt="">
+			</div>
+		</div>
+		<!-- setting menu -->
+		<div class="settings-menu">
+			<!-- dark-mode-btn -->
+			<div id="dark-btn">
+				<span></span>
+			</div>
+			<!-- the end of dark-mode-btn -->
+			<!-- setting-menu-inner -->
+			<div class="setting-menu-inner">
+				<!-- user-profile -->
+				<div class="user-profile">
+					<img src="images/profile-pic.png" alt="">
+					<div>
+						<p>Chika Nwazuo</p>
+						<a href="profile.html">See ypur profile</a>
+					</div>
+				</div>
+				<hr>
+				<!-- THE END user-profile -->
+				<!-- user-profile -->
+				<div class="user-profile">
+					<img src="images/profile-pic.png" alt="">
+					<div>
+						<p>Give us a feedback</p>
+							<a href="#">Feedback</a>
+					</div>
+				</div>
+				<hr>
+				<!-- THE END user-profile -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/setting.png" alt="" class="setting-icon">
+					<a href="#">Settings and Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/setting.png" alt="" class="setting-icon">
+					<a href="#">Display and Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/help.png" alt="" class="setting-icon">
+					<a href="#">Help & Support <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+				<!-- setting-links -->
+				<div class="setting-links">
+					<img src="images/logout.png" alt="" class="setting-icon">
+					<a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+				</div>
+				<!-- the end of settings-link -->
+			</div>
+			<!-- the end of setting-menu-inner -->
+			
+		</div>
+		<!-- the end of settings menu -->
+	</nav>
+	<!-- main content -->
+	<div class="container">
+		<!-- left sidebar -->
+		<div class="left-sidebar">
+			<!-- imp-links -->
+			<div class="imp-links">
+				<a href="#"><img src="images/news.png" alt=""> Latet News</a>
+				<a href="#"><img src="images/friends.png" alt=""> Friends</a>
+				<a href="#"><img src="images/group.png" alt=""> Group</a>
+				<a href="#"><img src="images/marketplace.png" alt=""> Marketplace</a>
+				<a href="#"><img src="images/watch.png" alt=""> Watch</a>
+				<a href="#">See More</a>
+
+			</div>
+			<!-- the end of imp-links -->
+			<!-- shortcut-links -->
+			<div class="shortcut-links">
+				<p>Your Shortcuts</p>
+				<a href=""><img src="images/shortcut-1.png" alt="">Web Developer</a>
+				<a href=""><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+				<a href=""><img src="images/shortcut-3.png" alt="">Full stack Developer</a>
+				<a href=""><img src="images/shortcut-4.png" alt="">Website Experts</a>
+
+			</div>
+			<!-- the shortcut-links -->
+		</div>
+		<!-- the end of left sidebar -->
+
+		<!-- main content -->
+		<div class="main-content">
+			<!-- story-gallery -->
+			<div class="story-gallery">
+				<!-- story -->
+				<div class="story story1">
+					<img src="images/upload.png" alt="">
+					<p>Post Story</p>
+				</div>
+				<div class="story story2">
+					<img src="images/member-1.png" alt="">
+					<p>Web design</p>
+				</div>
+				<div class="story story3">
+					<img src="images/member-2.png" alt="">
+					<p>Nwazuo</p>
+				</div>
+				<div class="story story4">
+					<img src="images/member-3.png" alt="">
+					<p>Bright</p>
+				</div>
+				<div class="story story5">
+					<img src="images/member-4.png" alt="">
+					<p>Chika</p>
+				</div>
+				<!-- the end of story -->
+			
+			</div>
+			<!-- the end of story-gallery -->
+				<!-- wirte-post-container -->
+				<div class="write-post-container">
+					<!-- user-profile -->
+					<div class="user-profile">
+						<img src="images/profile-pic.png" alt="">
+						<div>
+							<p>Chika Nwazuo</p>
+							<small>Public <i class="fas fa-caret-down"></i> </small>
+						</div>
+					</div>
+					
+					<!-- the end of user-profile -->
+					<!-- post-input-container -->
+					<div class="post-input-container">
+						<textarea name="" rows="3" placeholder="What's on your mind, Chika"></textarea>
+						<div class="add-post-links">
+							<a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+							<a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+							<a href="#"><img src="images/feeling.png" alt="">Felling/Activity</a>
+						</div>
+					</div>
+					<!-- the end post-input-container -->
+					
+				
+						</div>
+				<!-- the end of wirte-post-container -->
+						
+						<!-- post-container -->
+						<div class="post-container">
+							<div class="post-row">
+								<div class="user-profile">
+									<img src="images/profile-pic.png" alt="">
+									<div>
+										<p>Chika Nwazuo</p>
+										<span>Saturday 22 2023, 11:33 Am</span>
+									</div>
+								</div>
+								<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+							</div>
+							
+							<p class="post-text">Hi I am a proficient website developer, effective in developing and managing web applications that achieve customer
+							objectives.! <a href="#">#ChikaNwazuo</a><a href="#">#BrightWeb</a></p>
+							<img src="images/feed-image-1.png" alt="" class="post-img">
+							<!-- post-row -->
+								<div class="post-row">
+									<div class="activity-icons">
+										<div><img src="images/like-blue.png" alt="">120</div>
+										<div><img src="images/comments.png" alt="">100</div>
+										<div><img src="images/share.png" alt="">20</div>
+									</div>
+									<div class="post-profile-icon">
+										<img src="images/profile-pic.png" alt="">
+										<i class="fas fa-caret-down"></i>
+									</div>
+								</div>
+							<!-- end of post-row -->
+						</div>
+						<!-- the end of post container -->
+						<!-- post-container -->
+						<div class="post-container">
+							<div class="post-row">
+								<div class="user-profile">
+									<img src="images/profile-pic.png" alt="">
+									<div>
+										<p>Chika Nwazuo</p>
+										<span>Saturday 22 2023, 11:33 Am</span>
+									</div>
+								</div>
+								<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+							</div>
+						
+							<p class="post-text">Hi I am a proficient website developer, effective in developing and managing web applications
+								that achieve customer
+								objectives.! <a href="#">#ChikaNwazuo</a><a href="#">#BrightWeb</a></p>
+							<img src="images/feed-image-1.png" alt="" class="post-img">
+							<!-- post-row -->
+							<div class="post-row">
+								<div class="activity-icons">
+									<div><img src="images/like-blue.png" alt="">120</div>
+									<div><img src="images/comments.png" alt="">100</div>
+									<div><img src="images/share.png" alt="">20</div>
+								</div>
+								<div class="post-profile-icon">
+									<img src="images/profile-pic.png" alt="">
+									<i class="fas fa-caret-down"></i>
+								</div>
+							</div>
+							<!-- end of post-row -->
+						</div>
+						<!-- the end of post container -->
+						<!-- post-container -->
+						<div class="post-container">
+							<div class="post-row">
+								<div class="user-profile">
+									<img src="images/profile-pic.png" alt="">
+									<div>
+										<p>Chika Nwazuo</p>
+										<span>Saturday 22 2023, 11:33 Am</span>
+									</div>
+								</div>
+								<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+							</div>
+						
+							<p class="post-text">Hi am Chika Nwazuo a proficient website developer, effective in developing and managing web applications
+								that achieve customer
+								objectives.! <a href="#">#ChikaNwazuo</a><a href="#">#BrightWeb</a></p>
+							<img src="images/feed-image-3.png" alt="" class="post-img">
+							<!-- post-row -->
+							<div class="post-row">
+								<div class="activity-icons">
+									<div><img src="images/like-blue.png" alt="">120</div>
+									<div><img src="images/comments.png" alt="">100</div>
+									<div><img src="images/share.png" alt="">20</div>
+								</div>
+								<div class="post-profile-icon">
+									<img src="images/profile-pic.png" alt="">
+									<i class="fas fa-caret-down"></i>
+								</div>
+							</div>
+							<!-- end of post-row -->
+							
+						</div>
+						<!-- the end of post container -->
+						<button type="button" class="load-more-btn">Load More</button>
+				
+		</div>
+		<!-- the end of main content -->
+		<!-- right sidebar -->
+		<div class="right-sidebar">
+			<!-- sidebar-title -->
+			<div class="sidebar-title">
+				<h4>Events</h4>
+				<a href="#">Sell All</a>
+			</div>
+			<!-- the end of sideabr-title -->
+			<!-- event -->
+			<div class="event">
+				<!-- left-event -->
+				<div class="left-event">
+					<h3>8</h3>
+					<span>November</span>
+				</div>
+				<!--the end left-event -->
+				<!-- right-event -->
+				<div class="right-event">
+					<h4>Social Media</h4>
+					<p><i class="fa-sharp fa-solid fa-location-dot"></i>Accra Ghana</p>
+					<a href="">More Info</a>
+				</div>
+				<!-- the end of right-event -->
+			</div>
+			<!-- advert -->
+			<div class="sidebar-title">
+				<h4>Advertisement</h4>
+				<a href="#">Close</a>
+			</div>
+			<img src="images/advertisement.png" class="sidebar-ads" alt="">
+			<div class="sidebar-title">
+				<h4>Conversation</h4>
+				<a href="#">Hide Chat</a>
+			</div>
+			<!-- online-list -->
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-1.png" alt="">
+				</div>
+				<p>Bright</p>
+			</div>
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-2.png" alt="">
+				</div>
+				<p>Chika</p>
+				</div>
+					<div class="online-list">
+						<div class="online">
+							<img src="images/member-3.png" alt="">
+						</div>
+						<p>Nwazuo</p>
+					</div>
+
+			<!-- the end of online-list -->
+			<!-- the end of advert  -->
+			<!-- the end of event -->
+		</div>
+		<!-- the end of right sidebar -->
+	</div>
+	<!-- the end of main content -->
+	<div class="footer">
+		<p>Coyp-right Chika Nwazuo 2023</p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
